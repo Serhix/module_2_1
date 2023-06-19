@@ -134,4 +134,3 @@ def choise_comand(request):
     if data:
         return COMANDS.get(comand, incorrect_input)(data)
     return COMANDS.get(comand, incorrect_input)()
-
